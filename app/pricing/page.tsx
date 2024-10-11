@@ -7,17 +7,23 @@ import { CheckCircle } from 'lucide-react'
 export default function Pricing() {
   const plans = [
     {
-      name: 'Starter',
-      price: '$99',
-      features: ['5 projects', '1000 minutes of audio', 'Basic support', 'Core features'],
-      cta: 'Start Free Trial'
+      name: 'Trail',
+      price: 'Free',
+      features: ['1 project', '500 minutes of audio', 'Core features'],
+      cta: 'Contact Sales'
     },
     {
-      name: 'Pro',
-      price: '$299',
-      features: ['20 projects', '5000 minutes of audio', 'Priority support', 'Advanced features', 'API access'],
-      cta: 'Start Free Trial'
+      name: 'Pay-as-you-go',
+      price: '€0.15/minute audio',
+      features: ['Unlimited projects', 'Unlimited minutes of audio', 'Basic support', 'All features'],
+      cta: 'Contact Sales'
     },
+    // {
+    //   name: 'Pro',
+    //   price: '$299',
+    //   features: ['20 projects', '5000 minutes of audio', 'Priority support', 'Advanced features', 'API access'],
+    //   cta: 'Start Free Trial'
+    // },
     {
       name: 'Enterprise',
       price: 'Custom',
@@ -39,7 +45,7 @@ export default function Pricing() {
               <div key={plan.name} className="bg-gray-800 bg-opacity-50 rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-shadow border border-gray-700 flex flex-col justify-between">
                 <div>
                   <h2 className="text-2xl font-semibold mb-2 text-white">{plan.name}</h2>
-                  <p className="text-4xl font-bold mb-6 text-white">{plan.price}</p>
+                  <p className="text-xl font-bold mb-2 text-white">{plan.price}</p>
                   <ul className="mb-8 space-y-3">
                     {plan.features.map((feature) => (
                       <li key={feature} className="flex items-center text-gray-300">

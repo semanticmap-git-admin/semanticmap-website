@@ -88,7 +88,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <div className="md:w-1/4">
                 <h3 className="text-sm font-semibold mb-4 text-gray-400">Quick Links</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><Link href="/product" className="text-gray-300 hover:text-white transition-colors">Product</Link></li>
+                  {/* <li><Link href="/product" className="text-gray-300 hover:text-white transition-colors">Product</Link></li> */}
                   <li><Link href="/use-cases" className="text-gray-300 hover:text-white transition-colors">Use Cases</Link></li>
                   <li><Link href="/pricing" className="text-gray-300 hover:text-white transition-colors">Pricing</Link></li>
                 </ul>
