@@ -44,7 +44,7 @@ export default function Home() {
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-24">
           {/* Hero Section */}
           <div className="text-center mb-20">
-            <h1 className="text-5xl sm:text-6xl font-bold mb-6 text-white">Revolutionize Your Market Research</h1>
+            <h1 className="text-5xl sm:text-6xl font-bold mb-6 text-white">Revolutionizing Market Research</h1>
             <p className="text-xl sm:text-2xl mb-12 text-gray-300 max-w-3xl mx-auto">
               Harness the power of AI to unlock unprecedented insights from your qualitative data.
             </p>
