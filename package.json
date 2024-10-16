@@ -44,14 +44,17 @@
     "cmdk": "^1.0.0",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.3.0",
+    "i18next": "^23.4.6",
+    "i18next-browser-languagedetector": "^8.0.0",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.451.0",
-    "next": "14.2.15",
+    "next": "^14.2.15",
     "next-themes": "^0.3.0",
-    "react": "^18",
+    "react": "18.2.0",
     "react-day-picker": "^8.10.1",
-    "react-dom": "^18",
+    "react-dom": "18.2.0",
     "react-hook-form": "^7.53.0",
+    "react-i18next": "^13.2.2",
     "react-resizable-panels": "^2.1.4",
     "recharts": "^2.12.7",
     "sonner": "^1.5.0",
@@ -61,13 +64,13 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.15",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "@types/node": "^18.17.19",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.7",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.2.15",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3",
+    "typescript": "5.2.2"
   }
 }

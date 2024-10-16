@@ -1,0 +1,21 @@
+{
+  "slogan": "Revolutionizing Market Research",
+  "sub-slogan": "Harness the power of AI to unlock unprecedented insights from your qualitative data.",
+  "hero_button": "Get Started",
+  "features_title": "Powerful AI-Driven Features",
+  "cta_title": "Ready to Transform Your Research?",
+  "cta_description": "Join the AI revolution and unlock unprecedented insights.",
+  "cta_button": "Request a Demo",
+  "feature_automatic_transcription_title": "Automatic Transcription",
+  "feature_automatic_transcription_description": "Convert audio to text with high accuracy, saving time and ensuring precise data capture.",
+  "feature_speaker_identification_title": "Speaker Identification",
+  "feature_speaker_identification_description": "Distinguish between different speakers in conversations for targeted insights.",
+  "feature_topic_analysis_title": "Topic Analysis",
+  "feature_topic_analysis_description": "Identify key topics and themes discussed, revealing trends and patterns in your data.",
+  "feature_opinion_summarization_title": "Opinion Summarization",
+  "feature_opinion_summarization_description": "Summarize opinions and sentiments expressed, providing quick overviews of participant feedback.",
+  "feature_mood_analysis_title": "Mood Analysis",
+  "feature_mood_analysis_description": "Detect and analyze emotional tones in conversations for deeper understanding of responses.",
+  "feature_demographic_correlations_title": "Demographic Correlations",
+  "feature_demographic_correlations_description": "Uncover insights based on demographic factors, enabling targeted strategy development."
+}
