@@ -17,30 +17,30 @@ export async function POST(req: Request) {
         "name": "Semantic Map"
       },
       "to": [
-        // {
-        //     "email_address": {
-        //         "address": "info@semanticmap.com",
-        //         "name": "Semantic Map Info"
-        //     }
-        // },
-        // {
-        //     "email_address": {
-        //         "address": "philipp.sowik@semanticmap.com",
-        //         "name": "Semantic Map Info"
-        //     }
-        // },
         {
             "email_address": {
-                "address": "vipul.chauhan@semanticmap.com",
+                "address": "info@semanticmap.com",
+                "name": "Semantic Map Info"
+            }
+        },
+        {
+            "email_address": {
+                "address": "philipp.sowik@semanticmap.com",
                 "name": "Semantic Map Info"
             }
         },
         // {
         //     "email_address": {
-        //         "address": "vaibav.grover@semanticmap.com",
+        //         "address": "vipul.chauhan@semanticmap.com",
         //         "name": "Semantic Map Info"
         //     }
-        // }
+        // },
+        // // {
+        // //     "email_address": {
+        // //         "address": "vaibav.grover@semanticmap.com",
+        // //         "name": "Semantic Map Info"
+        // //     }
+        // // }
       ],
       "subject": "New Demo Request",
       "htmlbody": `
