@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import '../lib/i18n';
-import ClientLanguageProvider from "@/components/ClientLanguageProvider"; // i18n should only handle initialization here
+import ClientLanguageProvider from "@/components/ClientLanguageProvider";
+import Head from "next/head"; // i18n should only handle initialization here
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,6 +29,10 @@ export default function RootLayout({
 }>) {
   return (
       <ClientLanguageProvider>
+          <Head>
+              {/* Add the Plausible script */}
+              <script defer data-domain="semanticmap.com" src="https://plausible.io/js/script.tagged-events.js"></script>
+          </Head>
         <body
             className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
