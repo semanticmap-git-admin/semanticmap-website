@@ -1,14 +1,20 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import i18n from '../lib/i18n'; // Ensure i18n is initialized
+import React, { useEffect, useState } from 'react';
+import i18n from '../lib/i18n';
 
 export default function ClientLanguageProvider({ children }: { children: React.ReactNode }) {
-    const [lang, setLang] = useState('en');
+    const [detectedLang, setDetectedLang] = useState('en'); // Default to 'en'
 
     useEffect(() => {
-        setLang(i18n.language); // Detect the language from i18n
+        const browserLang = navigator.language;
+        const baseLang = browserLang.split('-')[0];
+        setDetectedLang(baseLang);
+        i18n.changeLanguage(baseLang)
+            .then(() => console.log(`i18n language set to: ${baseLang}`))
+            .catch((err) => console.error('Error setting i18n language:', err));
     }, []);
 
-    return <html lang={lang}>{children}</html>;
+
+    return <>{children}</>;
 }
