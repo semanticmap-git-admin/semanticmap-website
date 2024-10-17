@@ -30,12 +30,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     Pricing
                   </Link>
                 </nav>
+                {/* Request demo
                 <div className="hidden md:block">
                   <Button asChild variant="secondary"
                           className="bg-white text-black hover:bg-gray-200 rounded-full px-4 py-2 text-sm font-semibold transition-all duration-300 ease-in-out">
                     <Link href="/request-demo">Request a Demo</Link>
                   </Button>
                 </div>
+                */}
 
                 <LanguageSwitcher />
                 <button

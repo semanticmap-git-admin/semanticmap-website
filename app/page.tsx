@@ -48,31 +48,32 @@ export default function Home() {
   return (
       <Layout>
         <div>
-          <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-24">
+          <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-24">
             {/* Hero Section */}
             <div className="text-center mb-20">
               <h1 className="text-5xl sm:text-6xl font-bold mb-6 text-white">{t('slogan')}</h1>
               <p className="text-xl sm:text-2xl mb-12 text-gray-300 max-w-3xl mx-auto">
                 {t('sub-slogan')}
               </p>
+            </div>
+
+            <div className="relative w-full pb-[56.25%] h-0 ">
+              <iframe
+                  src="https://player.vimeo.com/video/1020467364?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                  className="absolute top-0 left-0 w-full h-full"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                  title="SemanticMap: Marktforschung mit KI leicht gemacht"
+              ></iframe>
+            </div>
+
+            {/* Hero Button */}
+            <div className="text-center m-16">
               <Button
                   asChild
                   className="bg-white text-gray-900 hover:bg-gray-200 rounded-full px-8 py-3 text-lg font-semibold shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105"
               >
                 <Link href="https://app.nextdataconsulting.com/">{t('hero_button')}</Link>
               </Button>
-            </div>
-
-            {/* Main Feature */}
-            <div className="mb-24 relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-800 to-gray-700 rounded-3xl"></div>
-              <Image
-                  src="/screenshots/main_page.png"
-                  alt="Semantic Map in Action"
-                  width={1200}
-                  height={600}
-                  className="rounded-3xl shadow-2xl mx-auto object-cover w-full h-full relative z-10"
-              />
             </div>
 
             {/* Features Section */}
@@ -86,7 +87,8 @@ export default function Home() {
                         key={index}
                         className="bg-gray-800 bg-opacity-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"
                     >
-                      <div className="w-12 h-12 bg-gradient-to-br from-gray-700 to-gray-600 rounded-full flex items-center justify-center mb-4">
+                      <div
+                          className="w-12 h-12 bg-gradient-to-br from-gray-700 to-gray-600 rounded-full flex items-center justify-center mb-4">
                         <feature.icon className="w-6 h-6 text-white" />
                       </div>
                       <h3 className="text-xl font-semibold mb-2 text-white">{feature.title}</h3>
