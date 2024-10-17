@@ -7,7 +7,7 @@ import { CheckCircle } from 'lucide-react'
 export default function Pricing() {
   const plans = [
     {
-      name: 'Trail',
+      name: 'Trial',
       price: 'Free',
       features: ['1 project', '500 minutes of audio', 'Core features'],
       cta: 'Contact Sales'
