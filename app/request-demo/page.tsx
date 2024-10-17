@@ -120,6 +120,24 @@ export default function RequestDemo() {
                 className="bg-gray-700 border-gray-600 text-white rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" 
               />
             </div>
+            <div>
+            <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">Message</label>
+            <Textarea 
+              id="message" 
+              name="message" 
+              rows={4} 
+              value={formData.message}
+              onChange={handleChange}
+              required 
+              className="bg-gray-700 border-gray-600 text-white rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" 
+            />
+            </div>
+            <div className="text-sm text-gray-400 mb-4">
+              By submitting your information to our website you agree to the terms outlined in our{' '}
+              <a href="/data_privacy" className="text-blue-400 hover:text-blue-300 underline">
+                Privacy Policy
+              </a>.
+            </div>
             <Button 
               type="submit" 
               disabled={isSubmitting}
