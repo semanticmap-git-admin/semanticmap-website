@@ -28,8 +28,12 @@ export default function RootLayout({
     return (
         <html lang="en"> {/* No extra whitespace here */}
         <Head>
+
             {/* Plausible Analytics */}
             <script defer data-domain="semanticmap.com" src="https://plausible.io/js/script.tagged-events.js"></script>
+
+            {/*Start of HubSpot Embed Code */}
+            <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/144126450.js"></script>
             {/* Favicon */}
             <link rel="icon" href="/favicon/favicon.ico" />
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
