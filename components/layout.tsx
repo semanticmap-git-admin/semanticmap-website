@@ -20,7 +20,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <div className="flex justify-between items-center h-20 py-8">
                 <Link href="/" className="flex items-center space-x-2">
                   {/* Update to use the imported SVG component */}
-                  <Logo className="w-[200px] h-[63px] text-white"/>
+                  <Logo className="w-[120px] h-[50px] text-white"/>
                 </Link>
                 <nav className="hidden md:flex space-x-8">
                   <Link href="/use-cases" className="text-sm hover:text-gray-300 transition-colors">
