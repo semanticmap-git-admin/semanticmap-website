@@ -66,7 +66,7 @@ export default function Home() {
               ></iframe>
             </div>
 
-            {/* Hero Button */}
+            {/* Hero Button
             <div className="text-center m-16">
               <Button
                   asChild
@@ -75,9 +75,10 @@ export default function Home() {
                 <Link href="https://app.nextdataconsulting.com/">{t('hero_button')}</Link>
               </Button>
             </div>
+            */}
 
             {/* Features Section */}
-            <div className="mb-24">
+            <div className="m-24">
               <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center text-white">
                 {t('features_title')}
               </h2>

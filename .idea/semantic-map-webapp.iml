@@ -9,5 +9,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="script.tagged-events" level="application" />
+    <orderEntry type="library" name="144126450" level="application" />
+    <orderEntry type="library" name="script.tagged-events" level="application" />
   </component>
 </module>
