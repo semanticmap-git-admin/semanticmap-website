@@ -20,7 +20,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <div className="flex justify-between items-center h-20 py-8">
                 <Link href="/" className="flex items-center space-x-2">
                   {/* Update to use the imported SVG component */}
-                  <Logo className="w-[200px] h-[63px] text-white"/>
+                  <Logo className="w-[120px] h-[50px] text-white"/>
                 </Link>
                 <nav className="hidden md:flex space-x-8">
                   <Link href="/use-cases" className="text-sm hover:text-gray-300 transition-colors">
@@ -80,7 +80,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-center text-gray-300">
                       <Phone className="w-4 h-4 mr-2" />
-                      <a href="tel:+4915773596517" className="hover:text-white transition-colors">+49 15773596517</a>
+                      <a href="tel:+491775844003" className="hover:text-white transition-colors">+49 1775844003</a>
                     </li>
                     <li className="flex items-center text-gray-300">
                       <Mail className="w-4 h-4 mr-2" />

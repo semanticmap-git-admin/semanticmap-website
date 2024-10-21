@@ -20,21 +20,21 @@ export default function LanguageSwitcher() {
                 <Image
                     src="/flags/united-kingdom.png" // Path to the UK flag
                     alt="Switch to German"
-                    width={24}
-                    height={24}
+                    width={17}
+                    height={17}
                     className="mr-2"
                 />
             ) : (
                 <Image
                     src="/flags/germany.png" // Path to the German flag
                     alt="Switch to English"
-                    width={24}
-                    height={24}
+                    width={17}
+                    height={17}
                     className="mr-2"
                 />
             )}
             <span>
-                {currentLang === 'en' ? 'English' : 'Deutsch'}
+                {currentLang === 'en' ? 'EN' : 'DE'}
             </span>
         </button>
     );
